@@ -12,54 +12,6 @@ import {products} from '../shared/productinfo';
 
 
 
-const items = [
-  {
-    src: 'assets/images/Jumbotron/4D.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/active_cream.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/aqua_sun_gel.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/bb_cream.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/booster_and_serum.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/calming_balance.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/clean_up_powder.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/oil_mist.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: 'assets/images/Jumbotron/shampoo.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  }
-  
-];
 
 const Example = (props) => {
   
@@ -68,13 +20,13 @@ const Example = (props) => {
 
   const next = () => {
     if (animating) return;
-    const nextIndex = activeIndex === products.length - 1 ? 0 : activeIndex + 1;
+    const nextIndex = activeIndex === products.length - 2 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
   }
 
   const previous = () => {
     if (animating) return;
-    const nextIndex = activeIndex === 0 ? products.length - 1 : activeIndex - 1;
+    const nextIndex = activeIndex === 0 ? products.length - 2 : activeIndex - 1;
     setActiveIndex(nextIndex);
   }
 
@@ -83,14 +35,14 @@ const Example = (props) => {
     setActiveIndex(newIndex);
   }
 
-  const slides = products.map((item) => {
+  const slides = products.filter((item) => item.id !== 3).map((item) => {
 
     
     
 
     return (
       <CarouselItem
-        onExiting={() => setAnimating(true)}
+        onExiting={() => setAnimating(false)}
         onExited={() => setAnimating(false)}
         key={item.src}
         
@@ -130,7 +82,7 @@ const Example = (props) => {
       interval={3000}
       
     >
-      <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+      <CarouselIndicators items={products} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
       <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />

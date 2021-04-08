@@ -27,7 +27,8 @@ export const products = [
         ingredients: "centella asiatica leaf juice, water, centella asiatica extract, lime extract, caprlic/caprictryglyceride, macadamia ternifolia seed oil, butylene glycol dicaprylate/dicaprate, common camellia flower extract, rosemary extract, calendula officinalis extract, matricaria extract, wild geranium extract, glycerin, butylene-glycol, common camellia seed oil, argania kamel oil, meadowfoam seed oil, polyglyceryl-4 caprate, propanediol, heptyl undecylenate, niacinamide, polyglyceryl-2 stearate, glyceryl Stearate, stearyl alcohol, sodium polyacryloyldimethyl taurate, hydrogenated polydecene, trideceth-10, 1,2-hexan diol, beeswax, jojoba seed oil, licorice root extract, ginger extract, fruit of schisandra chinensis extract, coptis root extract, green tea extract, propolis wax, capryl glycol, ractobacillus/ soybean fermentation extract, yeast/mistletoe-fermentation extract, yeast/imperata cylindrica root extract, safflower oleosome, hydroxydecyl ubiquinone,panthenol, hydrogenated recithin, soybean sterols, sodium hyaluronate, ethylhexyl glycerin, carbomer, tromethamine, flower mushroom extract, disodium EDTA, adenosine, octyldodecanol, ceramide NP, tocopherol, sunflower seed oil, tomato callus culture extract, asian rice callus culture extract, ivy-leaved morning glory extract callus culture extract, ginseng callus culture extract, lotus culture extract, sickle neofinetia callus culture extract, nicotinoyl tripeptide-1, RH-oligo peptide-1, hexadecanal, pentapeptide-4, ethanol, acetyl hexapeptide-8, hexapeptide-42, copper tripeptide-1, glycine soja extract, madecassoside, willow bark extract, oregano leaf extract, chamaecyparis obtusa leaf extract, cinnamomum cassia bark extract, gold extract, purslane extract, pomegranate extract, fig extract, mulberry fruit extract, gingko extract, laminaria digitata extract, seaweed extract, snail slime extract, siberian larch extract, mother chrysanthemum extract, rhubarb root/stem extract, Wildginger root extract, quercus mongolica leaf extract, water pepper extract, star anise extract, Korean corydalis root extract, barberry root extract, silver magnolia bark extract, hexadecanal tripeptide-5",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "50ml / 1.69fl.oz.",
-        src: 'assets/images/Jumbotron/active_cream.jpg'
+        src: 'assets/images/Jumbotron/active_cream.jpg',
+        thumbnail: "assets/images/products/ActiveCream.jpeg"
     },
 
     {
@@ -57,7 +58,8 @@ export const products = [
         ingredients: "Marking containers separately com starch, sodium cochoylescetioset, sodium lauroleglutamate, aloe vera leaf juice, allantoin, betaince, papain, prosthetic cactus extract, king tangerine seed extract, pollen extract, heartleaf houttuynia extract, green tea extract, hydrolized collagen, sorbitol, isopropylpalmitate, ascoville palmitate, titanium deoxide, citric acid, disodium EDTA",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         Size: "90g / 3.17 oz",
-        src: 'assets/images/Jumbotron/clean_up_powder.jpg'
+        src: 'assets/images/Jumbotron/clean_up_powder.jpg',
+        thumbnail: "assets/images/products/powder.jpeg"
 
     },
 
@@ -87,7 +89,8 @@ export const products = [
         ingredients:"cwater, titanium dioxide, ethylhexyl methoxycinnamate, butylene glycol, ethylhexyl salicylate, cetyl PEG/PPG-10/ dimethicone, cyclohexasiloxane, cyclopentasiloxane, phenyl trimethicone, 1,2-hexandiol, niacinamide, bisethylhexyloxyphenol methoxyphenyl triazine, diethylamino hydroxybenzoyl hexyl benzoate, octyldodecanol, glycerin, methylpropanediol, triethylhexanoin, polyisobutene, cetyl ethylhexanoate, dimethicone, caprlic/caprictryglyceride, sweet almond oil, sodium chloride, mica, hydrogenated polyisobutylene, ozocerite, diphenylsiloxy phenyl trimethicone, methyl methacrylate Crosspolymer, yellow iron oxide, stearic acid, hyaluronic acid, alluminium hydroxide, beeswax, disteardimonium hectorite, sorbitan sesquioleate, shea butter, red oxide of iron, xanthan gum, fragrance, polymethyl methacrylate, lactobacillus fermenting liquefaction, canola oil, propylene carbonate, tocopheryl acetate, maltodextrin, saccharide hydrolysate, distarch phosphate, iron black, adenosine, caprylyl glycol, ceramide NP, anhydroxylitol, Xylitylglucoside, triethoxycaprylylsilane, phytosphingosine, xylitol, five leaf akebia extract, disodium EDTA, zinc oxide, triethoxysilylethyl polydimethylsiloxyethyl hexyl dimethicone, dimethicone/vinyl dimethicone crosspolymer, gromwell root extract, ultramarine, angelica root extract, Korean angelica root extract, orange peel extract, pichia anomala extract, apricot stone extract, sesame extract, cocklebur fruit extract, centella asiatica extract, carrot seed oil, hydrogen dimethicone, green tea extract, polygonum cuspidatum root extract, gold extract, chenopodium album flower extract, corydalis ochotensis extract, draba nemorosa extract, lactuca indica extract, matricaria extract, beta-carotene, carrot extract, licorice extract, sunflower seed extract, aloe vera leaf extract, lavender extract, rosemary leaf extract, Korean pasque flower, usnea extract, Korean-pepper fruit extract, ethylhexyl glycerin",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "15g / 0.53 oz. *2ea",
-        src: 'assets/images/Jumbotron/4D.jpg'
+        src: 'assets/images/Jumbotron/4D.jpg',
+        thumbnail: "assets/images/products/4d.jpeg"
     },
 
     {
@@ -118,7 +121,8 @@ export const products = [
         ingredients: "Marking containers separately All Ingredients damask rose extract, butylene glycol, poly glycerin-3, propanediol, 1,2-haxanediol, rhei undulatairhizoma root/leaf root/root extract, glycerin, hamamelis virginiana extract, grape extract, hollyhock root extract, aloe vera leaf extract, B-glucan, lavender extract, chamomile extract, centella asiat extract, green tea extract, Zanthoxylum piperitum fruit extract, pulsatilla koreana extract, usnea extract, hydrolyzed glycosaminoglycans, sodium hyaluronate, sodium hyaluronate crosspolymer, hydrolyzed glycosaminoglycans, hydrolyzed hyaluronatic acid, hydroxypropyltrimonium hyaluronate, Mhyaluronic acid, sodium acetylated hyaluronate, seawater, hydrolyzed rhodophyceae extract, hydrolyzed algin, spirulina maxima extract, betaine, pelargonium graveolens oil, cyanocobalamin, gold, aloe vera leaf juice powder, dipotassium glycyrrhizate, allantoin, raspberry Ketone, carbomer, tromethamine, tea tree leaf oil, chamaecyparis obtusa oil, disodium EDTA, ethylhexyl glycerin, caprylyl grylcol, benzyl glycol, phenethyl alcohol",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "100 ml / 3.38 fl. oz.",
-        src: 'assets/images/Jumbotron/calming_balance.jpg'
+        src: 'assets/images/Jumbotron/calming_balance.jpg',
+        thumbnail: "assets/images/products/calmingGel.jpeg"
     },
 
     {
@@ -147,7 +151,8 @@ export const products = [
         ingredients:"centella asiatica leaf water, caprlic/capric triglyceride, cetyl ethylhexanoate, titanium oxid, propylene glycol, dimethicone, hexyl laurate, cetyl PEG/PPG-10/dimethicone, niacinamide, 1,2-haxanediol, glycerin, magnesium sulfate, sorbitan sesquioleate, butylene glycol, glutathione, anem arrhena asphodeloides bunge, hydrogenated poly isobutylene, oligopeptide-91 PH-oligopeptide-1, palmitoyl tripeptide-5, SH poly peptide, lime extract, hydrogenated lecithin, wild soybean sterol, hydroxydecyl ubiquinone, panthenol, lavendor oil, hydroxy ethyl cellulose, zinc stearate, microcrystalline wax, allantoin, tocopheryl acetate, alluminum hydroxychloride, silica dimethyl Silylate, yellow iron oxide, red oxide of iron, iron black, talc, triethoxycaprylylsilane, adenosine, disodium EDTA",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "30g / 1.05 oz",
-        src: 'assets/images/Jumbotron/bb_cream.jpg'
+        src: 'assets/images/Jumbotron/bb_cream.jpg',
+        thumbnail: "assets/images/products/aquaBB.jpeg"
     },
 
     {
@@ -176,7 +181,8 @@ export const products = [
         ingredients:"aloe vera leaf juice, ethylhexyl methoxycinnamate, butylene glycol, ethylhexyl salicylate, homosalate, niacinamide, bis-ethylhexyloxyphenol methoxyphenyl triazine, propylene glycol, caprylyl glycol, titanium dioxide, 1,2-haxanediol, glycerin, isononyl isononanoate, ethylhexyl triazone, polyglyceryl-methylglucose distearate, ethylhexandiol, sodium hyaluronate, lauryl methacrylate/ glycol dimethacrylate Crosspolymer, cyclopentasiloxane, ammonium acryloyldimethyltaurate/VP coploymer, sodium acrylate/sodium acryloyldimethyl tau, water, seed daffodil extract, sophora japonica extract, alluminium hydroxide, isohexadecane, stearic acid, dimethicone/vinyl dimethicone crosspolymer, sorbitan isostearate, Xanthan gum, hollyhock extract, aloe vera leaf extract, orange peel oil, lavender oil, pelargonium graveolens flower oil, amyris balsamifera bark oil, citrus grandis oil, mentha arvensis extract, tea tree leaf oil, bergamot oil, Mexican junifer oil, frankincense oil, gum tree leaf oil",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "50 ml / 1.69 fl. oz",
-        src: 'assets/images/Jumbotron/aqua_sun_gel.jpg'
+        src: 'assets/images/Jumbotron/aqua_sun_gel.jpg',
+        thumbnail: "assets/images/products/SunGel.jpeg"
     },
 
     {
@@ -203,7 +209,8 @@ export const products = [
         ingredient: "",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "120ml / 4.05 fl. oz.  Serum  45ml / 1.52 fl. oz.",
-        src: 'assets/images/Jumbotron/booster_and_serum.jpg'
+        src: 'assets/images/Jumbotron/booster_and_serum.jpg',
+        thumbnail: "assets/images/products/boosterSerum.jpeg"
     },
 
     {
@@ -233,7 +240,8 @@ export const products = [
         ingredients:"vitamin tree water, caprlic/capric triglyceride, butylene glycol, niacinamide, 1,2-haxanediol, glycerin,betaine, hydrogenated recithin, ceramide NP, sodium hyaluronate, phytosteryl/octyldodecyl lauroyl glutamate, water, lavender flower extract, rosemary leaf extract, origanum vulgare leaf extract, thyme flower/leaf/root extract, paeonia lactiflora extract, Spain licorice extract, fallopia multiflora root extract, phellinus igniarius extract, mulberries bark extract, sophora flavescens root extract, cimicifuga racemosa root extract, black seasame extract, angelica gigas extract, gold extract, grapefruit extract, acorus calamus extract, perilla leaf extract, hydroxyacetophenone, opuntia ficus-indica oil, rose hip fruit oil, common camellia seed oil ethyl esters, bergamot oil, lavender oil, sodium chloride, adenosine, disodium EDTA",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "50ml / 1.69 fl.oz",
-        src: 'assets/images/Jumbotron/oil_mist.jpg'
+        src: 'assets/images/Jumbotron/oil_mist.jpg',
+        thumbnail: "assets/images/products/oilMist.jpeg"
     },
 
     {
@@ -266,7 +274,8 @@ export const products = [
         ingredients: "purified water, cocobetaine, laurylglucosides, butylene glycol, sodium cocoyl alaninate, sodium lauroyl methylaminopropionate, disodium laureth sulfosuccinate, sodium chloride, urtica dioica (nettle) extract, centella asiatica extract, chaga mushroom extract, selaginella tamariscina extract, camellia japonica leaf extract, polyquaternium-10, honey extract, propanediol, caprylyl glycol, capillary wormwood extract, camellia japonica flower extract, palm oil, glycerin, salicylic acid, dexpanthenol, orange peel oil, bergamot oil, philippines orange oil, citric acid, niacinamide, pentasodium pentate, dextrin, caramel, olive extract, polyglyceryl-3methylglucose distearate, chlorella fermentation, methyl glucose sesquistearate, cetearyl glucoside, hydrogenated lecithin, nicotinamide adenine dinucleotide, linalul, limonene",
         manufacturer: "Hansol Biotech Co., Ltd South Korea",
         size: "Shampoo 500ml / 16.9 fl. oz.  Treatment  300ml / 10.14 fl. oz.",
-        src: 'assets/images/Jumbotron/shampoo.jpg'
+        src: 'assets/images/Jumbotron/shampoo.jpg',
+        thumbnail: "assets/images/products/shampoo.jpeg"
     }
 
 

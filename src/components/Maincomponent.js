@@ -5,17 +5,25 @@ import Home from './Homecomponent';
 import Footer from './Footercomponent';
 //import Contact from './Contactcomponent';
 //import Testimonial from './Testimonialcomponent';
+import {products} from '../shared/productinfo';
+
 
 class Main extends Component {
 
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      product: products 
+
+    };
+  }
   
   render() {
 
       const HomePage = () => {
           return(
-              <Home 
-              />
+              <Home products = {this.state.product}/>
           );
         } 
       

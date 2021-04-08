@@ -3,9 +3,41 @@ import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron,
   Button, Modal, ModalHeader, ModalBody,
   Form, FormGroup, Input, Label } from 'reactstrap';
 import Example from './Carouselcomponent';
+import { Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle} from 'reactstrap';
+
+
+
+
+ 
+    
+    
+    
+
+
+
 
 
 function Home(props) {
+
+
+    const card_detail = props.products.map((item) => 
+    <div className="col-6 col-sm-6 col-md-4">
+        <Card>
+        <CardImg src={item.thumbnail} alt={item.title} />
+        <CardBody>
+        <CardTitle>{item.title}</CardTitle>
+        {item.designation ? <CardSubtitle>{item.designation}</CardSubtitle> : null }
+        {/* <CardText>{item.title}</CardText> */}
+        </CardBody>
+        </Card>
+    </div>
+    
+    
+    
+    )
+
+
 
   return(
 
@@ -40,11 +72,21 @@ function Home(props) {
       
           <div class="container">
             <div class="section-title">
-              <h2>Testimonials</h2>
-              <hr class="divider my-4" />
+              <h2 class="subjumbo">Products</h2>
+              <div class="separator separator-danger">✻</div>
             </div>
 
-            <div class="row">
+
+            <div className="container mt-5">
+                <div className="row align-items-start">
+                    
+                        {card_detail}
+                    
+                    
+                </div>
+            </div>
+
+            {/* <div class="row">
               <div class="col-md-4 mt-3">
                   <div class="testimonial-1 rounded"><i class="fa fa-quote-left fa-lg"></i>
                       <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br/><br/></p>
@@ -76,12 +118,17 @@ function Home(props) {
 
             <div class="row justify-content-center mt-5">
             <a class="btn btn-outline-dark btn-md" href="#about">View More</a>
-            </div>
+            </div> */}
+
+
+            
 
             
 
           </div>
       </section>
+
+      
       
       
 
